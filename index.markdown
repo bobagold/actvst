@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Welcome to Actvst"
+author_profile: true
 ---
 
 ## Delivering Cutting-Edge Mobile Solutions

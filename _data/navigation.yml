@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "About"
+    url: about.html
+  - title: "Contact"
+    url: contact.html
+  - title: "Projects"
+    url: projects.html

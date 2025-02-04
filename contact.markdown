@@ -1,6 +1,5 @@
-MARKDOWN
 ---
-layout: page
+layout: single
 title: "Contact Us"
 ---
 
