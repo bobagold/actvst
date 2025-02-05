@@ -28,9 +28,23 @@ github_username:  bobagold
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "mint" # default/ "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
 #  - jekyll-seo-tag
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
