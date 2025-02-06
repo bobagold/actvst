@@ -3,10 +3,6 @@ layout: single
 title: "Using Flutter and Essential Libraries for Efficient Development"
 date: 2025-02-04
 categories: mobile development flutter
-author:
-  name: "Vladimir Goldobin"
-  bio: "A mobile developer passionate about finding best flutter libraries for you."
-  github: "bobagold"
 ---
 
 ## Elevating Mobile Development with Flutter

@@ -33,6 +33,19 @@ plugins:
   - jekyll-feed
 #  - jekyll-seo-tag
 
+author:
+  name: "Vladimir Goldobin"
+  avatar: "/assets/images/vladimir.png"
+  bio: "A mobile developer passionate about leveraging modern tools and techniques." # Note: Markdown is allowed
+  location: "Stuttgart"
+  links:
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.social/@bobagold"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bobagold"
+
 defaults:
   # _posts
   - scope:
