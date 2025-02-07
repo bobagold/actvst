@@ -33,7 +33,10 @@ A multi-package project in Flutter divides the codebase into independent package
 
 ### 2. Package Organization
    A typical structure might look like this:
+
+'''
 /packages /domain - entities/ - value_objects/ - repositories/ /data - models/ - repository_implementations/ - data_sources/ /presentation - widgets/ - screens/ - state_management/
+'''
 
 ### 3. Dependency Management
 Each package defines its dependencies in `pubspec.yaml`, ensuring modularity.
