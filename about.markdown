@@ -9,7 +9,7 @@ Actvst is a small team of passionate developers and designers dedicated to build
 
 ### Our Team
 
-| ![Vladimir](/assets/images/vladimir.png) | ![Vladimir](/assets/images/polina.jpg) |
+| ![Vladimir](/assets/images/vladimir.png){: .avatar-circle } | ![Polina](/assets/images/polina.jpg){: .avatar-circle } |
 | Vladimir Goldobin | Polina Tkachenko |
 | Co-founder & Developer | Project Manager, UX/UI Designer |
 
