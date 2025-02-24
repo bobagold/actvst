@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://actvst.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  bobagold
 repository: bobagold/actvst
+logo: "/assets/images/logo.png"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
