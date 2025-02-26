@@ -1,0 +1,118 @@
+---
+layout: single
+title: "Building 1520: A Fast-Paced Flutter Food Delivery App"
+date: 2025-02-25
+categories: [Flutter, Firebase, Startups]
+tags: [Flutter, food-delivery, Firebase, Stripe, Web, Geofencing]
+excerpt: "A deep dive into how I built 1520, a full-fledged food delivery app in record time, using Flutter, Firebase, and a few clever engineering tricks."
+---
+
+## 🚀 1520: Building a Food Delivery App Under Pressure
+
+![Fifteentwenty — 1520]({% link assets/images/1520/screen.png %})
+
+In 2020, the rapid expansion of **on-demand food delivery** created a competitive race in major cities. *1520* was our startup’s attempt to enter this market before major players like Getir arrived in New York City.
+
+As the **sole Flutter developer**, I was responsible for building a **fully functional food delivery app** from scratch within a strict timeframe. This meant balancing **speed, performance, and usability**, all while overcoming technical challenges like Stripe integration, **polygonal geofencing**, and complex UI interactions.
+
+---
+
+## 📌 The Challenge: Shipping an MVP in 2 Months
+
+The goal was ambitious:  
+- Develop a **standalone food delivery app** (not just an aggregator).  
+- Provide a **seamless user journey** from ordering to delivery.  
+- Implement a **location-based warehouse detection system** for optimized logistics.  
+- Integrate **Firebase for backend connectivity** to move fast.  
+- Support **web & desktop versions** for a wider reach.  
+- Build and **launch within 2 months** to stay ahead of the competition.  
+
+---
+
+## 🛠 The Tech Stack: Flutter + Firebase
+
+To maximize development speed, we chose **Flutter** for its **cross-platform support** and **fast UI iteration**.  
+
+- **Frontend:** Flutter  
+- **Backend:** Firebase (Firestore, Authentication, Messaging, Crashlytics, Analytics)  
+- **Payments:** Stripe (multiple plugin solutions)  
+- **Geolocation & Mapping:** Custom polygonal geofencing system  
+- **Web/Desktop:** Flutter Web  
+
+Firebase enabled **agile backend development** without needing a dedicated backend team, allowing me to focus on building the app experience.
+
+---
+
+## 💡 Solving Key Engineering Challenges
+
+### 1️⃣ Stripe Integration in Flutter (2020)
+Back in 2020, Stripe support for Flutter was **far from perfect**. I had to combine two of the most popular Stripe plugins and pick the best features from both to achieve a reliable payment flow.
+
+#### Solution:
+- Researched **Flutter Stripe plugin alternatives**.
+- Integrated and tested multiple approaches.
+- Merged the most stable features from two libraries.
+
+### 2️⃣ Scroll Synchronization for Category Navigation
+One of the hardest UI challenges was syncing a **vertically scrollable product list** with a **horizontally scrolling category selector**—something **no existing Flutter library** handled well.
+
+#### Solution:
+- Used **two scroll controllers** to track user interactions.
+- Listened for scroll events and adjusted animations accordingly.
+- Ensured smooth performance while maintaining **pixel-perfect UI**.
+
+### 3️⃣ Optimized Warehouse & Delivery Area Detection
+Since *1520* operated using **local micro-warehouses**, it was critical to ensure that users were **matched with the nearest warehouse** while staying within a defined coverage area.
+
+To achieve this, I developed a **custom geolocation-based address input and location picker** with **polygonal geofencing**. The goal was to determine whether a user’s selected location fell within a **delivery zone polygon**.
+
+#### Solution:
+- Implemented an **address input field** with location auto-completion.
+- Developed an **interactive location picker**, allowing users to manually adjust their pin.
+- Used a **point-in-polygon (PIP) algorithm** to determine whether the selected pin was inside a warehouse coverage zone.
+- Used Google Maps webservices for auto-completion and validation.
+
+💡 This approach ensured **precise warehouse assignment, reducing delivery errors and optimizing logistics**.
+
+### 4️⃣ Adapting the App for Web & Desktop
+While Flutter Web was still maturing in 2020, I adapted the app to work on **tablets, desktops, and browsers**. This required fixing multiple **plugin compatibility issues** and implementing a **responsive UI**.
+
+#### Solution:
+- Used **Flutter Web** directly for rapid adaptation.
+- Debugged and **patched multiple plugins** that weren’t web-compatible.
+- Designed **responsive layouts** for desktop & mobile.
+
+---
+
+## 🎯 The Outcome: Launch, Growth & Acquisition
+
+The **MVP was completed in just 2 months**, with **continuous improvements over the next 2 months** while the business team prepared warehouse logistics and delivery operations.  
+
+After launch, *1520* operated successfully in NYC for **a full year**, gaining traction in a **hyper-competitive market** before eventually being acquired by **Getir**.
+
+In 2021, I continued to support and maintain the app, including direct **hotfixes to product data on the server**, ensuring smooth operations post-launch.
+
+---
+
+## 🔥 Lessons Learned
+
+- **Speed is key in startups,** but technical debt must be balanced wisely.
+- **Some technically difficult problems (like scroll sync) may not be necessary for MVP.** Knowing when to **cut complexity** is crucial.
+- **Geolocation & delivery logic are just as critical as UX.** The **polygonal geofencing** system significantly reduced failed deliveries.
+- **Product ownership goes beyond coding.** I had to **make decisions fast, solve problems beyond development, and take full responsibility** for the product’s success.
+
+---
+
+## 🌟 Final Thoughts
+
+Building *1520* was an intense but rewarding experience. It pushed my **Flutter skills**, refined my **product vision**, and gave me a **firsthand look at the challenges of fast-growing startups**.
+
+If you're building a **high-speed MVP in Flutter**, my advice is:  
+✅ Choose the **simplest backend solution** (Firebase worked great).  
+✅ Be **flexible with UI challenges**—some aren’t worth the effort.  
+✅ Keep an **open mindset**—things will break, but quick iterations win.  
+✅ **Geofencing matters in delivery apps**—a smart **point-in-polygon algorithm** makes all the difference.
+
+[Fifteentwenty — 1520 - Key facts]({% link portfolio.markdown %})
+
+Would love to hear your thoughts—have you built a fast-paced startup app? 🚀 Drop a comment below!  
