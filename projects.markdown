@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Our Projects"
+title: "iOS & Android Development Projects"
 ---
 
 ## Our Projects

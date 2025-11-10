@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Portfolio"
+title: "Flutter & Firebase Mobile App Portfolio"
 ---
 
 ## <img src="{% link assets/images/1520/logo.png %}" alt="Fifteentwenty — 1520" width="50" height="50" class="avatar-circle"> - Fifteentwenty — 1520 – Food Delivery App

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome to Actvst"
+title: "Innovative Mobile Development Solutions for iOS & Android"
 ---
 
 ## Delivering Cutting-Edge Mobile Solutions
