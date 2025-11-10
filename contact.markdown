@@ -1,12 +1,27 @@
 ---
 layout: single
-title: "Contact Us"
+title: "Get in Touch for Mobile Development Projects"
 ---
 
-## Get in Touch
+## Let's Build Something Great Together
 
-We would love to hear from you! Please reach out for any inquiries or collaboration proposals.
+Whether you need a complete app, quick bugfix, or expert consultation, we're here to help. We deliver professional mobile and web solutions tailored to your needs.
 
-Email: [bobagold.actvst@gmail.com](mailto:bobagold.actvst@gmail.com)
+### We Can Help You With:
 
-Follow us on [GitHub](https://github.com/bobagold).
+- **Custom App Development** - iOS, Android, and cross-platform solutions
+- **Consulting & Code Review** - Expert guidance for your projects
+- **Bug Fixes & Optimization** - Quick, reliable fixes to get you back on track
+- **Automation Solutions** - Streamline your workflows and save time
+- **Workshops & Training** - Level up your team's skills
+- **Flexible Meetings** - Available online or in-person
+
+### Ready to Start?
+
+Have a project in mind? Need expert help? Let's discuss how we can make it happen.
+
+**Email us:** [bobagold.actvst@gmail.com](mailto:bobagold.actvst@gmail.com)
+
+**Connect with us:** [GitHub](https://github.com/bobagold)
+
+*No project is too small or too ambitious. Reach out today and let's explore the possibilities.*
