@@ -1,0 +1,8 @@
+# German navigation
+main:
+  - title: "Über uns"
+    url: de/about.html
+  - title: "Kontakt"
+    url: de/contact.html
+  - title: "Projekte"
+    url: de/projects.html

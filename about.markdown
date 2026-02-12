@@ -1,18 +1,23 @@
 ---
 layout: single
+lang: en
 title: "About Us"
 ---
 
-## Mission
+{% assign t = site.data.translations.en.about %}
 
-Actvst is a small team of passionate developers and designers dedicated to building exceptional mobile applications. Our mission is to empower businesses through innovative and functional mobile solutions.
+{% include language-switcher.html %}
 
-### Our Team
+## {{ t.mission_heading }}
+
+{{ t.mission_text }}
+
+### {{ t.team_heading }}
 
 | ![Vladimir](/assets/images/vladimir.png){: .avatar-circle } | ![Polina](/assets/images/polina.jpg){: .avatar-circle } |
-| Vladimir Goldobin | Polina Tkachenko |
-| Co-founder & Developer | Project Manager, UX/UI Designer |
+| {{ t.team.vladimir.name }} | {{ t.team.polina.name }} |
+| {{ t.team.vladimir.role }} | {{ t.team.polina.role }} |
 
-### Our Vision
+### {{ t.vision_heading }}
 
-To be a leader in mobile development by pushing the boundaries of what's possible with technology.
+{{ t.vision_text }}

@@ -4,6 +4,7 @@ title: "Decoupling Business Logic from UI: Why Sharing Essential Use Cases Matte
 date: 2025-02-20
 categories: [Flutter, Development, Architecture]
 tags: [Flutter, Domain-Driven Design, Riverpod, Business Logic, UI Separation]
+audience: developers
 ---
 
 ## Why Share Essential Business Logic?

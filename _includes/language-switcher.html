@@ -1,0 +1,8 @@
+{% assign translations = site.data.translations[page.lang] %}
+<div class="language-switcher" style="text-align: right; margin: 1em 0;">
+  {% if page.lang == "de" %}
+    <a href="{{ page.url | remove: '/de' }}" title="Switch to English">🇬🇧 English</a> | <strong>🇩🇪 Deutsch</strong>
+  {% else %}
+    <strong>🇬🇧 English</strong> | <a href="/de{{ page.url }}" title="Zu Deutsch wechseln">🇩🇪 Deutsch</a>
+  {% endif %}
+</div>

@@ -28,6 +28,11 @@ github_username:  bobagold
 repository: bobagold/actvst
 logo: "/assets/images/logo.png"
 
+# Multi-language settings
+languages: ["en", "de"]
+default_lang: "en"
+exclude_from_localization: ["assets", "404.html"]
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "mint" # default/ "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"

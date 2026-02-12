@@ -3,11 +3,15 @@ layout: single
 title: "Developing a Mobile App with OpenID Authentication and Custom API Without Backend"
 date: 2025-02-05
 categories: mobile development openid
+audience: clients
+lang: en
 ---
 
 ## Building a Mobile App Without a Traditional Backend
 
-In the realm of mobile development, the typical approach involves a robust backend to handle authentication, data storage, and business logic. However, I recently explored the possibility of developing a whole mobile app with OpenID authentication and a custom server API without a traditional backend implementation. 
+Not every project needs a full backend from day one. When speed and cost efficiency matter—especially for MVPs or proof-of-concepts, I use managed services to handle authentication while keeping the architecture flexible for future growth.
+
+This approach has worked well for several clients who needed to validate their product fast without upfront infrastructure costs. 
 
 ### My Approach
 
@@ -30,10 +34,14 @@ I achieved this by leveraging Keycloak as a Service for OpenID authentication, w
 
 - **Flexibility and Scalability**: With a mock API in place, I can easily update the API specification and continue development even as the actual backend is being developed at a later stage or if different backend solutions are considered.
 
-### Conclusion
+## When This Approach Makes Sense
 
-Developing a mobile app with OpenID authentication and a custom server API without traditional backend implementation is entirely feasible, especially with robust tools and services at our disposal. By leveraging Keycloak for authentication and Stoplight Prism for mock APIs, it is possible to create a fully functional application environment that allows for rapid development and iteration.
+This setup is perfect for:
+- **MVPs** that need to validate product-market fit quickly
+- **Projects with limited initial budgets** that want to defer backend costs
+- **Teams that want frontend and backend to evolve independently**
+- **Proof-of-concepts** for stakeholder buy-in before full investment
 
-Have you considered similar approaches in your projects? What tools or services have you used to overcome backend challenges in mobile development? I'd love to hear your experiences!
+I work full-time for major corporate clients, but I take on select projects where I can apply these cost-effective strategies. If you're starting a mobile app and want to minimize initial investment while keeping your options open, this could be the right approach.
 
-Happy coding!
+**Have a mobile app idea but concerned about backend complexity?** [Reach out](contact.html) for a free consultation. I'll assess your needs and provide a clear quote for getting your app to market fast.

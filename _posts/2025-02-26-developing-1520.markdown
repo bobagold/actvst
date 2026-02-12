@@ -5,15 +5,17 @@ date: 2025-02-25
 categories: [Flutter, Firebase, Startups]
 tags: [Flutter, food-delivery, Firebase, Stripe, Web, Geofencing]
 excerpt: "A deep dive into how I built 1520, a full-fledged food delivery app in record time, using Flutter, Firebase, and a few clever engineering tricks."
+audience: clients
+lang: en
 ---
 
-## 🚀 1520: Building a Food Delivery App Under Pressure
+## Building a Food Delivery App Under Pressure
 
 ![Fifteentwenty — 1520]({% link assets/images/1520/screen.png %})
 
-In 2020, the rapid expansion of **on-demand food delivery** created a competitive race in major cities. *1520* was our startup’s attempt to enter this market before major players like Getir arrived in New York City.
+In 2020, the on-demand food delivery market was exploding. We had a short window to launch before major players like Getir entered New York City. I was the sole developer responsible for building the entire mobile app from scratch—and we had 2 months to ship.
 
-As the **sole Flutter developer**, I was responsible for building a **fully functional food delivery app** from scratch within a strict timeframe. This meant balancing **speed, performance, and usability**, all while overcoming technical challenges like Stripe integration, **polygonal geofencing**, and complex UI interactions.
+This wasn't just about writing code. It meant making architectural decisions, solving complex technical problems (Stripe integration, polygonal geofencing, scroll synchronization), and taking full ownership of the product's success.
 
 ---
 
@@ -103,16 +105,12 @@ In 2021, I continued to support and maintain the app, including direct **hotfixe
 
 ---
 
-## 🌟 Final Thoughts
+## What This Project Taught Me About Delivery
 
-Building *1520* was an intense but rewarding experience. It pushed my **Flutter skills**, refined my **product vision**, and gave me a **firsthand look at the challenges of fast-growing startups**.
+Building 1520 taught me that speed matters, but smart engineering decisions matter more. The app launched on time, operated successfully for a year, and was eventually acquired by Getir—a major player in the industry.
 
-If you're building a **high-speed MVP in Flutter**, my advice is:  
-✅ Choose the **simplest backend solution** (Firebase worked great).  
-✅ Be **flexible with UI challenges**—some aren’t worth the effort.  
-✅ Keep an **open mindset**—things will break, but quick iterations win.  
-✅ **Geofencing matters in delivery apps**—a smart **point-in-polygon algorithm** makes all the difference.
+This wasn't just a technical challenge. It required product ownership, rapid decision-making, and the ability to ship working software under tight deadlines. These are the same skills I bring to my corporate work today, where release schedules and business impact are non-negotiable.
 
-[Fifteentwenty — 1520 - Key facts]({% link portfolio.markdown %})
+[View 1520 case study details]({% link portfolio.markdown %})
 
-Would love to hear your thoughts—have you built a fast-paced startup app? 🚀 Drop a comment below!  
+**Need to build a complex mobile app fast?** Whether it's a delivery platform, marketplace, or any app requiring geolocation, payments, and real-time updates, I can help. [Contact me](contact.html) for a free consultation and project quote.

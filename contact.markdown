@@ -1,27 +1,29 @@
 ---
 layout: single
+lang: en
 title: "Get in Touch for Mobile Development Projects"
 ---
 
-## Let's Build Something Great Together
+{% assign t = site.data.translations.en.contact %}
 
-Whether you need a complete app, quick bugfix, or expert consultation, we're here to help. We deliver professional mobile and web solutions tailored to your needs.
+{% include language-switcher.html %}
 
-### We Can Help You With:
+## {{ t.heading }}
 
-- **Custom App Development** - iOS, Android, and cross-platform solutions
-- **Consulting & Code Review** - Expert guidance for your projects
-- **Bug Fixes & Optimization** - Quick, reliable fixes to get you back on track
-- **Automation Solutions** - Streamline your workflows and save time
-- **Workshops & Training** - Level up your team's skills
-- **Flexible Meetings** - Available online or in-person
+{{ t.intro }}
 
-### Ready to Start?
+### {{ t.services_heading }}
 
-Have a project in mind? Need expert help? Let's discuss how we can make it happen.
+{% for service in t.services %}
+- **{{ service.title }}** - {{ service.description }}
+{% endfor %}
 
-**Email us:** [bobagold.actvst@gmail.com](mailto:bobagold.actvst@gmail.com)
+### {{ t.ready_heading }}
 
-**Connect with us:** [GitHub](https://github.com/bobagold)
+{{ t.ready_text }}
 
-*No project is too small or too ambitious. Reach out today and let's explore the possibilities.*
+**{{ t.email_label }}** [bobagold.actvst@gmail.com](mailto:bobagold.actvst@gmail.com)
+
+**{{ t.connect_label }}** [GitHub](https://github.com/bobagold)
+
+*{{ t.footer_text }}*

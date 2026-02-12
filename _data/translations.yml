@@ -1,0 +1,188 @@
+# Translation strings for the website
+en:
+  # Navigation
+  nav:
+    about: "About"
+    contact: "Contact"
+    projects: "Projects"
+  
+  # Home page
+  home:
+    title: "Innovative Mobile Development Solutions for iOS & Android"
+    heading: "Delivering Cutting-Edge Mobile Solutions"
+    intro: "At Actvst, we specialize in providing innovative mobile development solutions tailored to meet the needs of our clients. We develop high-quality applications for both iOS and Android platforms."
+    services:
+      - "Custom App Development"
+      - "UI/UX Design"
+      - "App Maintenance and Support"
+      - "Consultation Services"
+    projects_heading: "Our Projects"
+    projects_intro: "Check out our latest projects showcasing our expertise in mobile development."
+    view_projects: "View Projects"
+    articles_heading: "Recent Articles"
+  
+  # About page
+  about:
+    title: "About Us"
+    mission_heading: "Mission"
+    mission_text: "Actvst is a small team of passionate developers and designers dedicated to building exceptional mobile applications. Our mission is to empower businesses through innovative and functional mobile solutions."
+    team_heading: "Our Team"
+    team:
+      vladimir:
+        name: "Vladimir Goldobin"
+        role: "Co-founder & Developer"
+      polina:
+        name: "Polina Tkachenko"
+        role: "Project Manager, UX/UI Designer"
+    vision_heading: "Our Vision"
+    vision_text: "To be a leader in mobile development by pushing the boundaries of what's possible with technology."
+  
+  # Contact page
+  contact:
+    title: "Get in Touch for Mobile Development Projects"
+    heading: "Let's Build Something Great Together"
+    intro: "Whether you need a complete app, quick bugfix, or expert consultation, we're here to help. We deliver professional mobile and web solutions tailored to your needs."
+    services_heading: "We Can Help You With:"
+    services:
+      - title: "Custom App Development"
+        description: "iOS, Android, and cross-platform solutions"
+      - title: "Consulting & Code Review"
+        description: "Expert guidance for your projects"
+      - title: "Bug Fixes & Optimization"
+        description: "Quick, reliable fixes to get you back on track"
+      - title: "Automation Solutions"
+        description: "Streamline your workflows and save time"
+      - title: "Workshops & Training"
+        description: "Level up your team's skills"
+      - title: "Flexible Meetings"
+        description: "Available online or in-person"
+    ready_heading: "Ready to Start?"
+    ready_text: "Have a project in mind? Need expert help? Let's discuss how we can make it happen."
+    email_label: "Email us:"
+    connect_label: "Connect with us:"
+    footer_text: "No project is too small or too ambitious. Reach out today and let's explore the possibilities."
+  
+  # Projects page
+  projects:
+    title: "iOS & Android Development Projects"
+    heading: "Our Projects"
+    intro: "Here are some of our latest mobile applications:"
+  
+  # Portfolio page
+  portfolio:
+    title: "Flutter & Firebase Mobile App Portfolio"
+    fifteentwenty:
+      heading: "Fifteentwenty — 1520 – Food Delivery App"
+      role: "Lead Flutter Developer (Sole Mobile Developer)"
+      tech_stack: "Tech Stack:"
+      tech_list: "Flutter, Firebase, Stripe, Flutter Web"
+      duration: "Duration:"
+      duration_text: "July 2020 – December 2020 (Development & Launch)"
+      support: "Support & Maintenance:"
+      support_text: "2021"
+      intro: "I developed *Fifteentwenty — 1520*, a full-fledged food delivery platform, from scratch to launch within **two months**, meeting aggressive deadlines in a fast-moving market. The app provided a seamless **end-to-end user experience**, integrating Firebase for backend connectivity and implementing **custom UI solutions** to ensure pixel-perfect design."
+      contributions_heading: "Key Contributions"
+      contributions:
+        - "🚀 **Built and launched the MVP in just 2 months**, iterating over the next 2 months to refine UI/UX"
+        - "🔄 **Engineered complex scroll synchronization** for category-based product listings without existing libraries"
+        - "💳 **Integrated Stripe for payments**, combining the best features of multiple Flutter plugins"
+        - "🌍 **Adapted the app for Web & Desktop** with responsive UI and fixes for incompatible Flutter Web plugins"
+        - "🛠 **Provided ongoing support & maintenance throughout 2021**, including **hotfixing product data directly on the server**"
+        - "📈 **Gained deep experience in product vision & responsibility**, working in a fast-paced startup environment"
+      outro: "The app successfully launched and operated for a year before being acquired by **Getir** in the competitive NYC food delivery market."
+      postmortem: "Postmortem"
+      more_details: "More technical details"
+
+de:
+  # Navigation
+  nav:
+    about: "Über uns"
+    contact: "Kontakt"
+    projects: "Projekte"
+  
+  # Home page
+  home:
+    title: "Innovative Mobile-Entwicklungslösungen für iOS & Android"
+    heading: "Bereitstellung modernster mobiler Lösungen"
+    intro: "Bei Actvst sind wir spezialisiert auf innovative Mobile-Entwicklungslösungen, die auf die Bedürfnisse unserer Kunden zugeschnitten sind. Wir entwickeln hochwertige Anwendungen für iOS- und Android-Plattformen."
+    services:
+      - "Individuelle App-Entwicklung"
+      - "UI/UX-Design"
+      - "App-Wartung und Support"
+      - "Beratungsdienstleistungen"
+    projects_heading: "Unsere Projekte"
+    projects_intro: "Schauen Sie sich unsere neuesten Projekte an, die unsere Expertise in der Mobile-Entwicklung zeigen."
+    view_projects: "Projekte ansehen"
+    articles_heading: "Neueste Artikel"
+  
+  # About page
+  about:
+    title: "Über uns"
+    mission_heading: "Mission"
+    mission_text: "Actvst ist ein kleines Team aus leidenschaftlichen Entwicklern und Designern, die sich der Entwicklung außergewöhnlicher mobiler Anwendungen verschrieben haben. Unsere Mission ist es, Unternehmen durch innovative und funktionale mobile Lösungen zu stärken."
+    team_heading: "Unser Team"
+    team:
+      vladimir:
+        name: "Vladimir Goldobin"
+        role: "Mitgründer & Entwickler"
+      polina:
+        name: "Polina Tkachenko"
+        role: "Projektmanagerin, UX/UI-Designerin"
+    vision_heading: "Unsere Vision"
+    vision_text: "Ein Marktführer in der Mobile-Entwicklung zu sein, indem wir die Grenzen des technologisch Möglichen verschieben."
+  
+  # Contact page
+  contact:
+    title: "Kontaktieren Sie uns für Mobile-Entwicklungsprojekte"
+    heading: "Lassen Sie uns gemeinsam etwas Großartiges schaffen"
+    intro: "Ob Sie eine vollständige App, eine schnelle Fehlerbehebung oder eine Expertenberatung benötigen – wir sind für Sie da. Wir liefern professionelle mobile und webbasierte Lösungen, die auf Ihre Bedürfnisse zugeschnitten sind."
+    services_heading: "Wir können Ihnen helfen mit:"
+    services:
+      - title: "Individuelle App-Entwicklung"
+        description: "iOS, Android und plattformübergreifende Lösungen"
+      - title: "Beratung & Code-Review"
+        description: "Expertenberatung für Ihre Projekte"
+      - title: "Fehlerbehebung & Optimierung"
+        description: "Schnelle, zuverlässige Lösungen, um Sie wieder auf Kurs zu bringen"
+      - title: "Automatisierungslösungen"
+        description: "Optimieren Sie Ihre Arbeitsabläufe und sparen Sie Zeit"
+      - title: "Workshops & Schulungen"
+        description: "Verbessern Sie die Fähigkeiten Ihres Teams"
+      - title: "Flexible Meetings"
+        description: "Online oder persönlich verfügbar"
+    ready_heading: "Bereit zu starten?"
+    ready_text: "Haben Sie ein Projekt im Kopf? Benötigen Sie Expertenhilfe? Lassen Sie uns besprechen, wie wir es umsetzen können."
+    email_label: "E-Mail an uns:"
+    connect_label: "Verbinden Sie sich mit uns:"
+    footer_text: "Kein Projekt ist zu klein oder zu ehrgeizig. Kontaktieren Sie uns noch heute und lassen Sie uns die Möglichkeiten erkunden."
+  
+  # Projects page
+  projects:
+    title: "iOS- & Android-Entwicklungsprojekte"
+    heading: "Unsere Projekte"
+    intro: "Hier sind einige unserer neuesten mobilen Anwendungen:"
+  
+  # Portfolio page
+  portfolio:
+    title: "Flutter & Firebase Mobile-App-Portfolio"
+    fifteentwenty:
+      heading: "Fifteentwenty — 1520 – Essenslieferungs-App"
+      role: "Lead Flutter-Entwickler (Einziger Mobile-Entwickler)"
+      tech_stack: "Tech-Stack:"
+      tech_list: "Flutter, Firebase, Stripe, Flutter Web"
+      duration: "Dauer:"
+      duration_text: "Juli 2020 – Dezember 2020 (Entwicklung & Launch)"
+      support: "Support & Wartung:"
+      support_text: "2021"
+      intro: "Ich habe *Fifteentwenty — 1520*, eine vollwertige Essenslieferungsplattform, von Grund auf innerhalb von **zwei Monaten** entwickelt und gelauncht, um aggressive Fristen in einem schnelllebigen Markt einzuhalten. Die App bot ein nahtloses **End-to-End-Benutzererlebnis**, integrierte Firebase für Backend-Konnektivität und implementierte **maßgeschneiderte UI-Lösungen**, um pixelgenaues Design sicherzustellen."
+      contributions_heading: "Wichtige Beiträge"
+      contributions:
+        - "🚀 **MVP in nur 2 Monaten entwickelt und gelauncht**, mit Iterationen über die nächsten 2 Monate zur Verfeinerung von UI/UX"
+        - "🔄 **Komplexe Scroll-Synchronisation entwickelt** für kategoriebasierte Produktlisten ohne vorhandene Bibliotheken"
+        - "💳 **Stripe für Zahlungen integriert**, mit Kombination der besten Funktionen mehrerer Flutter-Plugins"
+        - "🌍 **App für Web & Desktop angepasst** mit responsivem UI und Fixes für inkompatible Flutter-Web-Plugins"
+        - "🛠 **Kontinuierlicher Support & Wartung während 2021**, einschließlich **Hotfixing von Produktdaten direkt auf dem Server**"
+        - "📈 **Tiefgreifende Erfahrung in Produktvision & Verantwortung gewonnen**, in einem schnelllebigen Startup-Umfeld"
+      outro: "Die App wurde erfolgreich gelauncht und für ein Jahr betrieben, bevor sie von **Getir** im wettbewerbsintensiven New Yorker Essenslieferungsmarkt übernommen wurde."
+      postmortem: "Postmortem"
+      more_details: "Mehr technische Details"

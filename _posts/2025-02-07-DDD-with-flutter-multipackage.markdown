@@ -4,6 +4,7 @@ title: "Leveraging Domain-Driven Design (DDD) in Flutter: Multi-Package Structur
 date: 2025-02-07
 categories: [Flutter, DDD, Architecture]
 tags: [Flutter, Domain-Driven Design, Multi-Package, Clean Architecture]
+audience: developers
 ---
 
 Flutter developers increasingly adopt **Domain-Driven Design (DDD)** to create scalable, maintainable, and testable applications. This article explores how to structure a Flutter project using DDD principles with a multi-package approach, drawing inspiration from examples like the **Flutter Todo List** and other implementations.

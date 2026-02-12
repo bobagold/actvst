@@ -5,6 +5,7 @@ layout: single
 excerpt: "A tiny automation to stay consistent and a few reflections on recent tech conferences."
 categories: [Personal, Automation, Conferences]
 tags: [n8n, Flutter, AI, Conferences]
+audience: developers
 ---
 
 Today I built an **n8n workflow** that will remind me to update this website more often.  

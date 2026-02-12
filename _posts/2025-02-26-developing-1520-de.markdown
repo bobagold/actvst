@@ -1,0 +1,116 @@
+---
+layout: single
+title: "Aufbau von 1520: Eine schnelle Flutter-Essenslieferungs-App"
+date: 2025-02-25
+categories: [Flutter, Firebase, Startups]
+tags: [Flutter, food-delivery, Firebase, Stripe, Web, Geofencing]
+excerpt: "Ein tiefer Einblick, wie ich 1520, eine vollwertige Essenslieferungs-App, in Rekordzeit mit Flutter, Firebase und einigen cleveren Engineering-Tricks gebaut habe."
+audience: clients
+lang: de
+---
+
+## Aufbau einer Essenslieferungs-App unter Zeitdruck
+
+![Fifteentwenty — 1520]({% link assets/images/1520/screen.png %})
+
+Im Jahr 2020 explodierte der On-Demand-Essenslieferungsmarkt. Wir hatten ein kurzes Zeitfenster für den Launch, bevor große Player wie Getir New York City betraten. Ich war der einzige Entwickler, der für den Aufbau der gesamten Mobile-App von Grund auf verantwortlich war – und wir hatten 2 Monate Zeit zum Ausliefern.
+
+Das ging nicht nur ums Programmieren. Es bedeutete, architektonische Entscheidungen zu treffen, komplexe technische Probleme zu lösen (Stripe-Integration, polygonales Geofencing, Scroll-Synchronisierung) und die volle Verantwortung für den Erfolg des Produkts zu übernehmen.
+
+---
+
+## Die Herausforderung: Ein MVP in 2 Monaten ausliefern
+
+Das Ziel war ambitioniert:  
+- Entwicklung einer **eigenständigen Essenslieferungs-App** (nicht nur ein Aggregator).  
+- Bereitstellung einer **nahtlosen User Journey** von der Bestellung bis zur Lieferung.  
+- Implementierung eines **standortbasierten Lagerhaus-Erkennungssystems** für optimierte Logistik.  
+- Integration von **Firebase für Backend-Konnektivität**, um schnell voranzukommen.  
+- Unterstützung von **Web- und Desktop-Versionen** für größere Reichweite.  
+- Aufbau und **Launch innerhalb von 2 Monaten**, um der Konkurrenz voraus zu sein.  
+
+---
+
+## Der Tech-Stack: Flutter + Firebase
+
+Um die Entwicklungsgeschwindigkeit zu maximieren, wählten wir **Flutter** aufgrund seiner **plattformübergreifenden Unterstützung** und **schnellen UI-Iteration**.  
+
+- **Frontend:** Flutter  
+- **Backend:** Firebase (Firestore, Authentication, Messaging, Crashlytics, Analytics)  
+- **Zahlungen:** Stripe (mehrere Plugin-Lösungen)  
+- **Geolokalisierung & Mapping:** Benutzerdefiniertes polygonales Geofencing-System  
+- **Web/Desktop:** Flutter Web  
+
+Firebase ermöglichte **agile Backend-Entwicklung** ohne ein dediziertes Backend-Team, sodass ich mich auf den Aufbau der App-Erfahrung konzentrieren konnte.
+
+---
+
+## Lösung wichtiger technischer Herausforderungen
+
+### 1️⃣ Stripe-Integration in Flutter (2020)
+Im Jahr 2020 war die Stripe-Unterstützung für Flutter **weit von perfekt**. Ich musste zwei der beliebtesten Stripe-Plugins kombinieren und die besten Funktionen aus beiden auswählen, um einen zuverlässigen Zahlungsablauf zu erreichen.
+
+#### Lösung:
+- Recherche nach **Flutter Stripe Plugin-Alternativen**.
+- Integration und Test mehrerer Ansätze.
+- Zusammenführung der stabilsten Funktionen aus zwei Bibliotheken.
+
+### 2️⃣ Scroll-Synchronisierung für Kategoriennavigation
+Eine der schwierigsten UI-Herausforderungen war die Synchronisierung einer **vertikal scrollbaren Produktliste** mit einem **horizontal scrollenden Kategorieselektor** – etwas, das **keine vorhandene Flutter-Bibliothek** gut handhabte.
+
+#### Lösung:
+- Verwendung von **zwei Scroll-Controllern** zur Verfolgung von Benutzerinteraktionen.
+- Lauschen auf Scroll-Events und entsprechende Anpassung der Animationen.
+- Sicherstellung reibungsloser Performance bei gleichzeitiger Beibehaltung eines **pixelgenauen UI**.
+
+### 3️⃣ Optimierte Lagerhaus- und Liefergebietserkennung
+Da *1520* mit **lokalen Mikro-Lagerhäusern** arbeitete, war es entscheidend sicherzustellen, dass Benutzer **mit dem nächstgelegenen Lagerhaus abgeglichen** wurden und gleichzeitig innerhalb eines definierten Abdeckungsbereichs blieben.
+
+Um dies zu erreichen, entwickelte ich eine **benutzerdefinierte geolokalisierungsbasierte Adresseingabe und Standortauswahl** mit **polygonalem Geofencing**. Das Ziel war es zu bestimmen, ob der vom Benutzer ausgewählte Standort innerhalb eines **Lieferzonenpolygons** lag.
+
+#### Lösung:
+- Implementierung eines **Adresseingabefelds** mit Standort-Autovervollständigung.
+- Entwicklung eines **interaktiven Standortpickers**, der es Benutzern ermöglicht, ihre Position manuell anzupassen.
+- Verwendung eines **Point-in-Polygon (PIP) Algorithmus**, um zu bestimmen, ob die ausgewählte Position innerhalb einer Lagerhaus-Abdeckungszone liegt.
+- Nutzung von Google Maps-Webservices für Autovervollständigung und Validierung.
+
+💡 Dieser Ansatz stellte **präzise Lagerhauszu ordnung sicher, reduzierte Lieferfehler und optimierte die Logistik**.
+
+### 4️⃣ Anpassung der App für Web & Desktop
+Während Flutter Web im Jahr 2020 noch im Reifeprozess war, passte ich die App für **Tablets, Desktops und Browser** an. Dies erforderte die Behebung mehrerer **Plugin-Kompatibilitätsprobleme** und die Implementierung einer **responsiven UI**.
+
+#### Lösung:
+- Direkte Verwendung von **Flutter Web** für schnelle Anpassung.
+- Debugging und **Patching mehrerer Plugins**, die nicht webkompatibel waren.
+- Entwicklung **responsiver Layouts** für Desktop & Mobile.
+
+---
+
+## Das Ergebnis: Launch, Wachstum & Übernahme
+
+Das **MVP wurde in nur 2 Monaten fertiggestellt**, mit **kontinuierlichen Verbesserungen über die nächsten 2 Monate**, während das Business-Team Lagerhauslogistik und Lieferbetrieb vorbereitete.  
+
+Nach dem Launch operierte *1520* erfolgreich in NYC für **ein ganzes Jahr**, gewann Traktion in einem **hyperkompetitiven Markt**, bevor es schließlich von **Getir** übernommen wurde.
+
+Im Jahr 2021 unterstützte und wartete ich die App weiter, einschließlich direkter **Hotfixes von Produktdaten auf dem Server**, um reibungslose Operationen nach dem Launch sicherzustellen.
+
+---
+
+## Gelernte Lektionen
+
+- **Geschwindigkeit ist im Startup entscheidend**, aber technische Schulden müssen klug ausbalanciert werden.
+- **Einige technisch schwierige Probleme (wie Scroll-Sync) sind möglicherweise nicht für das MVP notwendig.** Zu wissen, wann **Komplexität reduziert** werden sollte, ist entscheidend.
+- **Geolokalisierung & Lieferlogik sind genauso kritisch wie UX.** Das **polygonale Geofencing-System** reduzierte gescheiterte Lieferungen erheblich.
+- **Produktverantwortung geht über Coding hinaus.** Ich musste **schnelle Entscheidungen treffen, Probleme über die Entwicklung hinaus lösen und volle Verantwortung** für den Erfolg des Produkts übernehmen.
+
+---
+
+## Was dieses Projekt mich über Lieferung lehrte
+
+Der Aufbau von 1520 lehrte mich, dass Geschwindigkeit wichtig ist, aber kluge Engineering-Entscheidungen noch wichtiger sind. Die App wurde pünktlich gelauncht, operierte erfolgreich für ein Jahr und wurde schließlich von Getir übernommen – einem Hauptakteur in der Branche.
+
+Dies war nicht nur eine technische Herausforderung. Es erforderte Produktverantwortung, schnelle Entscheidungsfindung und die Fähigkeit, funktionierende Software unter engen Fristen auszuliefern. Das sind die gleichen Fähigkeiten, die ich heute in meine Unternehmensarbeit einbringe, wo Release-Zeitpläne und geschäftliche Auswirkungen nicht verhandelbar sind.
+
+[Details zur 1520-Fallstudie anzeigen]({% link portfolio.markdown %})
+
+**Müssen Sie schnell eine komplexe Mobile-App bauen?** Ob Lieferplattform, Marktplatz oder eine App, die Geolokalisierung, Zahlungen und Echtzeit-Updates erfordert – ich kann helfen. [Kontaktieren Sie mich](contact.html) für eine kostenlose Beratung und ein Projektangebot.
